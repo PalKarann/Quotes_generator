@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 1519px;
+    height: 1024px;
+    /* top: -513px;
+    left: -720px; */
+    /* padding-right: 120px; */
+    /* padding-left: 120px; */
+    /* gap: 64px; */
+    background-color: white;
+}
+.navigation{
+    height: 80px;
+    width: 1519px;
+    background-color: rgba(12, 36, 74, 1);
+}
+.navigation img{
+    padding: 20px 90px;
+}
+.container{
+    text-align: center;
+    margin: 20px;
+    padding-left: 12px;
+    width: 1455px;
+    height: 500px;
+    padding-right: 12px;
+}
+ h1{
+    font-size: 48px;
+} 
+.Quote-Box{
+    width: 100%;
+    height: 500px;
+    background-color:rgba(255, 255, 255, 1);
+    border-radius: 40px;
+    box-shadow: 0px 8px 32px 0px #1C1C1E29;
+
+}
+.quote{
+    width: 1000px;
+    height: 400px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    position: relative;
+    top: 20px;
+    left: 180px;
+}
+.Generate-Quotes{
+    padding: 20px 0px 0px 40px;
+}
+.Generate-Quotes button{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background: var(--yellow, #F3BD00);
+    font-size: 25px;
+    cursor: pointer;
+}
+.form{
+    width: 100%;
+    height: 500px;
+}
