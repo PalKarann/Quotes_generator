@@ -1,3 +1,6 @@
+*{
+    font-family: lato;
+}
 body{
     margin: 0px;
     padding: 0px;
@@ -30,7 +33,7 @@ body{
  h1{
     font-size: 48px;
 } 
-.Quote-Box{
+.quote-Box{
     position: relative;
     width: 80%;
     height: 400px;
@@ -59,10 +62,10 @@ body{
     text-indent: 75%;
     top: 55%;
 }
-.Generate-Quotes{
+.qenerate-quotes{
     padding: 20px 0px 0px 40px;
 }
-.Generate-Quotes button{
+.qenerate-quotes button{
     width: 81%;
     height: 50px;
     border-radius: 10px;
@@ -95,12 +98,12 @@ button:hover{
     top: -20px;
     margin-left: 35px;
 }
-.Name{
+.name{
     width: 100%;
     height: 125px;
     font-size: 25px;
 }
-.Name p{
+.name p{
     text-indent: -72%;
 }
 .Add{

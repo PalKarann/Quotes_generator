@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote Generator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +20,7 @@
     </div>
     <div class="container">
         <h1>Let's Start Generating Quotes</h1>
-        <div class="Quote-Box">
+        <div class="quote-Box">
             <div class="quote">
                 <p id="show-quote">
                     "Keep GOIN"
@@ -27,19 +30,19 @@
                 </p>
             </div>
         </div>
-        <div class="Generate-Quotes">
-            <button onclick="Generate_Quotes()">Generate Quote</button>
+        <div class="qenerate-quotes">
+            <button onclick="generateQuotes()">Generate Quote</button>
         </div>
         <div class="form">
             <p>New Quote</p>
             <input type="text" placeholder="New Quote" class="input">
             <!-- <input type="text" placeholder="Name" class="name"> -->
         </div>
-        <div class="Name">
+        <div class="name">
             <p>Name</p>
             <div class="Add">
                 <input type="text" placeholder="Name" class="addition">
-                <button onclick="add()" class="button" ondblclick="reSet()">Add Quotes</button>
+                <button onclick="add()" class="button" ondblclick="reset()">Add Quotes</button>
             </div>
         </div>
     </div>

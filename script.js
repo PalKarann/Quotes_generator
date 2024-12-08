@@ -28,7 +28,7 @@ if (localStorage.getItem("quotes") == null) {
 }
 
 // console.log(getQuotes)
-function Generate_Quotes() {
+function generateQuotes() {
   var getQuotes = JSON.parse(localStorage.getItem("quotes"));
 
   let randomIndex = Math.floor(Math.random() * getQuotes.length); //--new length//
